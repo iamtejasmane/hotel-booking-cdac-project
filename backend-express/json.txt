@@ -1,0 +1,278 @@
+//states
+id : 1
+{
+    "name": "Maharashtra"
+}
+id : 2
+{
+    "name": "Karnataka"
+}
+id : 3
+{
+    "name": "Gujrat"
+}
+id : 4
+{
+    "name": "Rajasthan"
+}
+id : 5
+{
+    "name": "Kerala"
+}
+
+//cities
+id :1
+{
+        "state_id" : 1,
+        "name" : "Pune",
+        "code":"111"
+}
+id :2
+{
+        "state_id" : 1,
+        "name" : "Mumbai",
+        "code":"222"
+}
+id :3
+{
+        "state_id" : 1,
+        "name" : "Kolhapur",
+        "code":"333"
+}
+id :4
+{
+        "state_id" : 2,
+        "name" : "Bengaluru",
+        "code":"444"
+}
+id :5
+{
+        "state_id" : 1,
+        "name" : "Sangli",
+        "code":"555"
+}
+id :6   
+{
+        "state_id" : 1,
+        "name" : "Nagpur",
+        "code":"666"
+}
+id :7
+{
+        "state_id" : 3,
+        "name" : "Surat",
+        "code":"777"
+}
+id :8
+{
+        "state_id" : 4,
+        "name" : "Jaipur",
+        "code":"888"
+}
+id :9
+{
+        "state_id" : 4,
+        "name" : "Ajmer",
+        "code":"999"
+}
+id :10
+{
+        "state_id" : 1,
+        "name" : "Alibag",
+        "code":"000"
+}
+
+
+//property
+id : 1
+{
+        "name" : "Casa Imperia",
+        "description" : " for rent",
+        "property_type_id ": "1",
+        "user_id ": "1",
+        "room_type_id ": "1",
+        "state_id" : "1",
+        "city_id" : "1",
+        "address" : "Pune wakad",
+        "latitude" : "NULL",
+        "longitude" : "NULL",
+       " bedroom_count" : "2",
+        "bed_count" : "4",
+        "bathroom_count" : "2",
+        "start_date" : "12/12/2020",
+        "end_date" :"14/12/2020",
+        "price":"10000",
+        "status" : "true"
+}
+
+id : 2
+{
+        "name" : "Taj",
+        "description" : "for rent",
+        "property_type_id": "2",
+        "user_id": "2",
+        "room_type_id": "1",
+        "state_id" : "1",
+        "city_id" : "2",
+        "address" : "Mumbai South",
+        "latitude" : "NULL",
+        "longitude" : "NULL",
+        "bedroom_count" : "2",
+        "bed_count" : "4",
+        "bathroom_count" : "2",
+        "start_date" : "2020-8-12",
+        "end_date" : "2020-8-14",
+        "price": "15000",
+        "status" : "true"
+}
+id : 3
+{
+        "name" : "Golden Tower",
+        "description" : "for rent",
+        "property_type_id": "1",
+        "user_id": "1",
+        "room_type_id": "1",
+        "state_id" : "1",
+        "city_id" : "",
+        "address" : "Pune wakad",
+        "latitude" : "NULL",
+        "longitude" : "NULL",
+        "bedroom_count" : "2",
+        "bed_count" : "4",
+        "bathroom_count" : "2",
+        "start_date" : "2020-2-10",
+        "end_date" : "2020-8-11",
+        "price" : "12000",
+        "status" : "true"
+}
+id : 4
+{
+        "name" : "Burj Khalifa",
+        "description" : "for rent",
+        "property_type_id": "1",
+        "user_id": "1",
+        "room_type_id": "1",
+        "state_id" : "2",
+        "city_id" : "4",
+        "address" : "Bengaluru west",
+        "latitude" : "NULL",
+        "longitude" : "NULL",
+        "bedroom_count" : "2",
+        "bed_count" : "4",
+        "bathroom_count" : "2",
+        "start_date" : "2020-10-06",
+        "end_date" : "2020-10-08",
+        "price":"50000",
+        "status" : "true"
+}
+id : 5
+{
+        "name" : "Modi Bhavan",
+        "description" : "for rent",
+        "property_type_id ": "1",
+        "user_id ": "3",
+        "room_type_id ": "1",
+        "state_id" : "3",
+        "city_id" : "7",
+        "address" : "Surat north",
+        "latitude" : "NULL",
+        "longitude" : "NULL",
+        "bedroom_count" : "2",
+        "bed_count" : "4",
+        "bathroom_count" : "2",
+        "start_date" : "2020-8-06",
+        "end_date" : "2020-8-08",
+        "price":"17000",
+        "status" : "true"
+}
+//users
+id : 1
+{
+        "firstName": "Admin",
+        "lastName" : "Admin",
+        "email"    : "admin@portal.com",
+        "password" : "test",
+        "user_type": "1"
+} token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjEwNzI0MzI2fQ.V0vcr-gQRcE4eIqCLAlRJlxBAFBBj6Qi_V6ZG3m3Eno
+id : 2
+{
+        "firstName": "Tejas",
+        "lastName" : "Mane",
+        "email" : "tejas@g.com",
+        "password" : "2222"
+}
+id : 3
+{
+         " firstName ": "Akash",
+        "lastName" : "Kadam",
+        "email" : "akash@g.com",
+        "password" : "3333"
+}
+id : 4
+{
+         " firstName ": "Yusuf",
+        "lastName" : "Khan",
+        "email" : "yusuf@g.com",
+        "password" : "4444"
+}
+id : 5 / 6
+{
+         "firstName ": "Ajinkya",
+        "lastName" : "Atkale",
+        "email" : "ajinkya@portal.com",
+        "password" : "5555"
+} token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjEwNzI0MjIzfQ.zyLJZiVyYdZYodaKD1VKHGfxGacQSkInuye_ltX6WBQ
+
+//property_type 
+id : 1
+{
+     "name" : "Flat"
+}
+id : 2
+{
+     "name" : "House"
+}
+
+//room_type
+id : 1
+{
+     "name" : "Private"
+}
+id : 2
+{
+     "name" : "Shared"
+}
+
+//amenities
+
+id : 1
+{
+    "property_id" : "1",
+       " name" : "wifi",
+        "status" :true
+}
+id : 2
+{
+    "property_id" : "2",
+       " name" : "AC",
+        "status" :true
+}
+id : 3
+{
+    "property_id" : "1",
+       " name" : "Breakfast",
+        "status" :true
+}
+id : 4
+{
+    "property_id" : "1",
+       " name" : "Heating",
+        "status" :false
+}
+id : 5
+{
+    "property_id" : "2",
+       " name" : "TV",
+        "status" :false
+}
+
